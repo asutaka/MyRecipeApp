@@ -22,14 +22,6 @@ class HomeScreen extends StatelessWidget {
                   SizedBox(
                     height: 15,
                   ),
-                  SvgPicture.asset("assets/icons/app_icon_color.svg"),
-                  SizedBox(
-                    height: 5,
-                  ),
-                  padded(locationWidget()),
-                  SizedBox(
-                    height: 15,
-                  ),
                   padded(SearchBarWidget()),
                   SizedBox(
                     height: 25,
@@ -155,25 +147,6 @@ class HomeScreen extends StatelessWidget {
               fontWeight: FontWeight.bold,
               color: AppColors.primaryColor),
         ),
-      ],
-    );
-  }
-
-  Widget locationWidget() {
-    String locationIconPath = "assets/icons/location_icon.svg";
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        SvgPicture.asset(
-          locationIconPath,
-        ),
-        SizedBox(
-          width: 8,
-        ),
-        Text(
-          "Khartoum,Sudan",
-          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-        )
       ],
     );
   }

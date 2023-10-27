@@ -40,16 +40,6 @@ class ExploreScreen extends StatelessWidget {
         SizedBox(
           height: 20,
         ),
-        Center(
-          child: AppText(
-            text: "Find Products",
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-        SizedBox(
-          height: 20,
-        ),
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 10),
           child: SearchBarWidget(),
