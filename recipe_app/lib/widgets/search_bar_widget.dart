@@ -31,16 +31,12 @@ class SearchBarWidget extends StatelessWidget {
               icon: SvgPicture.asset(
                 searchIcon,
               ))
-
-          // SvgPicture.asset(
-          //   searchIcon,
-          // ),
         ],
       ),
     );
   }
 
   void onTap() {
-    print("onTap called.");
+    print("search called.");
   }
 }
